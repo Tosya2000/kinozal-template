@@ -1,0 +1,26 @@
+@use "presets" as *;
+@use "mixins" as *;
+
+.footer {
+  ul {
+    padding: 0;
+
+    list-style: none;
+  }
+  a {
+    color: #6f6f6f;
+    &:hover {
+      color: $color-white;
+    }
+  }
+  padding-top: 45px;
+  color: $color-gray;
+  background-color: $color-dark;
+}
+.footer-fifth {
+  margin: 20px 0;
+  text-align: center;
+  a {
+    color: $color-gray;
+  }
+}
